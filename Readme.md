@@ -31,6 +31,6 @@ landmarks) and the last row is the task of spinal anterior-posterior x-ray landm
 denote our detected landmarks via our framework, while blue points represent the ground-truth landmarks.]('/image/results.png')
 
 ## Reference
-[1] C.-W. Wang, C.-T. Huang, J.-H. Lee, C.-H. Li, S.-W. Chang, M.-J.Siao, T.-M. Lai, B. Ibragimov, T. Vrtovec, O. Ronneberger, et al., “A benchmark for comparison of dental radiography analysis algorithms,” Medical image analysis, vol. 31, pp. 63–76, 2016.  
+[1] aC.-W. Wang, C.-T. Huang, J.-H. Lee, C.-H. Li, S.-W. Chang, M.-J.Siao, T.-M. Lai, B. Ibragimov, T. Vrtovec, O. Ronneberger, et al., “A benchmark for comparison of dental radiography analysis algorithms,” Medical image analysis, vol. 31, pp. 63–76, 2016.  
 [2] C. Payer, D. ˇStern, H. Bischof, and M. Urschler, “Integrating spatial configuration into heatmap regression based cnns for landmark localization,” Medical Image Analysis, vol. 54, pp. 207–219, 2019.  
 [3] H. Wu, C. Bailey, P. Rasoulinejad, and S. Li, “Automatic landmark estimation for adolescent idiopathic scoliosis assessment using boostnet,” in International Conference on Medical Image Computing and ComputerAssisted Intervention, 2017.  
