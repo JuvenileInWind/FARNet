@@ -1,6 +1,8 @@
 # Feature Aggregation and Refinement Network for 2D Anatomical Landmark Detection
 
 ## Overview
+Localization of anatomical landmarks is essential for clinical diagnosis, treatment planning, and research. In this paper, we propose a novel deep network, named feature aggregation and refinement network (FARNet), for the automatic detection of anatomical landmarks. To alleviate the problem of limited training data in the medical domain, our network adopts a CNN pre-trained on natural images as the backbone network and several popular networks have been compared. Our FARNet also includes a multi-scale feature aggregation module for multiscale feature fusion and a feature refinement module for high-resolution heatmap regression. Coarse-to-fine supervisions are applied to the two modules to facilitate the endto-end training. We further propose a novel loss function named Exponential Weighted Center loss for more accurate heatmap regression, which focuses on the losses from the pixels near landmarks and suppresses the ones from far away. Our network has been evaluated on three publicly available anatomical landmark detection datasets, including cephalometric radiographs, hand radiographs, and spine radiographs, and achieves state-of-art performances on all three datasets.
+
 ![The architecture of the feature aggregation and refinement network (FARNet). FARNet includes a backbone network
 (in the pink dashed box), a multi-scale feature aggregation (MSFA) module (in the blue dashed box) and a feature refinement
 (FR) module (in the brown dashed box). We also give the feature level labels {L0, L1, L2, L3, L4, L5} at the left side of the
